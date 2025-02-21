@@ -1,0 +1,72 @@
+{
+    "persona": [
+      {
+        "id": 1,
+        "nome": "Giovanni",
+        "cognome": "Rossi",
+        "media_voti": 28,
+        "matricola": "123456",
+        "assenze": 2,
+        "wp": ["Web Development", "Matematica Avanzata"]
+      },
+      {
+        "id": 2,
+        "nome": "Maria",
+        "cognome": "Bianchi",
+        "media_voti": 26.5,
+        "matricola": "654321",
+        "assenze": 5,
+        "wp": ["Fisica Avanzata"]
+      },
+      {
+        "id": 3,
+        "nome": "Luca",
+        "cognome": "Verdi",
+        "media_voti": 30,
+        "matricola": "112233",
+        "assenze": 0,
+        "wp": ["Informatica", "Chimica"]
+      }
+    ],
+    "assenze": [
+      {
+        "id_persona": 1,
+        "numero_assenze": 2
+      },
+      {
+        "id_persona": 2,
+        "numero_assenze": 5
+      },
+      {
+        "id_persona": 3,
+        "numero_assenze": 0
+      }
+    ],
+    "wp": [
+      {
+        "id": 1,
+        "nome": "Web Development",
+        "descrizione": "Corso che insegna a sviluppare siti web dinamici."
+      },
+      {
+        "id": 2,
+        "nome": "Matematica Avanzata",
+        "descrizione": "Corso avanzato di matematica per studenti universitari."
+      },
+      {
+        "id": 3,
+        "nome": "Fisica Avanzata",
+        "descrizione": "Studio delle leggi della fisica in modo più approfondito."
+      },
+      {
+        "id": 4,
+        "nome": "Informatica",
+        "descrizione": "Introduzione all'informatica e alla programmazione."
+      },
+      {
+        "id": 5,
+        "nome": "Chimica",
+        "descrizione": "Corso base di chimica per studenti universitari."
+      }
+    ]
+  }
